@@ -2,7 +2,7 @@
 Powershell class object used for different types of encryption and decryption purposes.
 This class is used in my work projects. Just wanted to share for anyone searching for this kind of POWERSHELL code.
 
-To be used in you powershell projects to encrypt and decrypt following instances:
+To be used in your powershell projects to encrypt and decrypt following instances:
   1) Strings using RSA, AES, or RSA+AES encryption algorithms (in case of very long strings)
   2) Files using RSA+AES encryption algorithm. So you can encrypt a file using someone's open certificate and private key will be needed to decrypt one.
   3) Folders with files using RSA+AES encryption algorithm. Same as files but encrypts or decrypts all files in folder.
