@@ -9,7 +9,7 @@ Can be used to encrypt and decrypt following instances:
   4) Create 7Z archives using RSA encryption algorithm (Generates a long password and encrypts it using RSA encryption). So, you can create archives using someone's open certificate and send them to a person. Private key is needed to extract files.
   5) Create 7Z archives of files with Archive attribute set (for backup purposes) and (optionalluy) reset that attribute after successfull archiving. So you can create secure backup files jobs. All specified files will be backed up to 7Z archive using open certificate. After that, they can be stored anywhere (cloud storage). Private key is neeeded to decrypt those archives.
   
-   SevenZipSharp and 7z64.dll libraries are needed for a script to work properly. Included in BIN.ZIP archive. Or you can download yours.
+   SevenZipSharp and 7z64.dll libraries are needed for a script to work properly. Included in BIN.ZIP archive, extract them to BIN folder. Or you can always use your own DLLs.
    
    Also, I've included number of examples in PS1 files. 
   
